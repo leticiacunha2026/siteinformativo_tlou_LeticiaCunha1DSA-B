@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Last of Us | Guia de Fã</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="img/vagalume.jpg">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">THE LAST OF US <span>//MANUAL DO FÃ</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="codex.html">Codex </a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>QUANDO VOCÊ ESTIVER PERDIDO NA ESCURIDÃO, PROCURE A LUZ.</h1>
+      <p>Guia informativo sobre o colapso da civilização, a mutação do fungo Cordyceps e a luta pela sobrevivência em um
+        mundo tomado pela natureza.</p>
+      <div class="hero-buttons">
+      </div>
+    </div>
+  </section>
+
+  <main id="destaques" class="container section">
+    <div class="section-header">
+      <h2>REGISTROS PRINCIPAIS</h2>
+      <div class="line"></div>
+    </div>
+
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-badge">CORDYCEPS</div>
+        <p>Saiba mais sobre o fungo <b>Cordyceps</b></p>
+        <a href="codex.html" class="btn-saibamais">Procure no Codex!</a>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">PROTAGONISTAS</div>
+        <p>Se informe sobre os personagens principais!</p>
+        <a href="codex.html" class="btn-saibamais">Procure no Codex!</a>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">LORE</div>
+        <p>Saiba mais sobre a história do jogo e desenvolvedores!</p>
+        <a href="sobre.html" class="btn-saibamais">Procure no Sobre!</a>
+      </article>
+
+      <article class="card">
+        <div class="card-badge">AJUDA</div>
+        <p>Precisa de ajuda com mecânica ou interface do jogo? Se informe!</p>
+        <a href="codex.html" class="btn-saibamais">Procure em Ajuda!</a>
+      </article>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Letícia Cunha 2026-© Todos os direitos reservados <br> Trabalho acadêmico sem fins lucrativos</p>
+    </div>
+  </footer>
+  <a href="index.html" id="btnTopo" class="btn-topo" title="Voltar ao início">▲ Topo</a>
+  <script>
+    const btnTopo = document.getElementById('btnTopo');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 400) {
+        btnTopo.classList.add('ativo');
+      } else {
+        btnTopo.classList.remove('ativo');
+      }
+    });
+
+  </script>
+</body>
+
+</html>

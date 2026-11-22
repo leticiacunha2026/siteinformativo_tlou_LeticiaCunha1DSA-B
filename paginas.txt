@@ -1,0 +1,13 @@
+sobre 
+- lore resumida
+- dados da obra (criadores, data de criação, resumo sobre os criadores)
+- quantidade de jogos e obras criadas sobre o jogo
+
+ajuda
+- dispositivos compatíveis
+- opções no menu
+
+codex
+- personagens principais (separar por jogo 1 e 2)
+- estagios dos infectados 
+- mecanica dos infectados 

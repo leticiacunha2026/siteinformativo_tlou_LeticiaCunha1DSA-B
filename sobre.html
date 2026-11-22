@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre & Lore | The Last of Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="img/vagalume.jpg">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">THE LAST OF US <span>//MANUAL DO FÃ</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html" class="active">Sobre</a></li>
+          <li><a href="codex.html">Codex</a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>LORE & UNIVERSO</h1>
+    </div>
+  </section>
+
+  <main class="container section">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>O Dia do Surto (Outbreak Day)</h2>
+        <p>Em 26 de setembro de 2013, uma espécie mutante do fungo <em>Cordyceps</em> começou a se espalhar rapidamente
+          pelos Estados Unidos através de safras agrícolas contaminadas,
+          atingindo centros urbanos em questão de horas.</p>
+        <p>Sem vacina ou cura viável, os governos entraram em colapso. O exército assumiu o controle através da
+          <strong>FEDRA</strong>, estabelecendo Zonas de Quarentena muradas sob lei marcial, enquanto grupos rebeldes
+          como os <strong>Vagalumes</strong> passaram a lutar pela restauração da democracia e pela busca de uma cura.
+        </p>
+        <p>Vinte anos depois, em 2033, a natureza retomou as cidades abandonadas. A escassez de suprimentos transformou
+          os sobreviventes remanescentes em contrabandistas, saqueadores e membros de comunidades isoladas.</p>
+
+        <blockquote class="quote">
+          "Não importa o quanto você tente, você não pode escapar do seu passado." — Joel Miller
+        </blockquote>
+      </div>
+
+      <aside class="about-box">
+        <h3>DADOS DA OBRA</h3>
+        <ul class="info-list">
+          <li><strong>Desenvolvedora:</strong> Naughty Dog</li>
+          <li><strong>Lançamento Original:</strong> 14 de Junho de 2013</li>
+          <li><strong>Gênero:</strong> Ação-Aventura / Survival Horror</li>
+          <li><strong>Ambientação:</strong> Estados Unidos (Pós-apocalíptico)</li>
+          <li><strong>Protagonistas:</strong> Joel Miller & Ellie Williams</li>
+          <li><strong>Adaptação:</strong> Série original HBO (2023)</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <p>Letícia Cunha 2026-© Todos os direitos reservados <br> Trabalho acadêmico sem fins lucrativos</p>
+    </div>
+  </footer>
+  <script>
+    const btnTopo = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 300) {
+        btnTopo.classList.add('ativo');
+      } else {
+        btnTopo.classList.remove('ativo');
+      }
+    });
+  </script>
+</body>
+
+</html>
